@@ -1,0 +1,18 @@
+/* 工具栏 */
+.edui-lemon .edui-toolbar {
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    padding: 1px;
+    overflow: hidden; /*全屏下单独一行不占位*/
+    zoom: 1;
+    width:auto;
+    height:auto;
+}
+
+.edui-lemon .edui-toolbar .edui-button,
+.edui-lemon .edui-toolbar .edui-splitbutton,
+.edui-lemon .edui-toolbar .edui-menubutton,
+.edui-lemon .edui-toolbar .edui-combox {
+    padding: 4px 0 !important;
+}
